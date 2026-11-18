@@ -1,8 +1,6 @@
 # LESS-II em adultos brasileiros: código de análise
 
 Código que reproduz as tabelas e figuras do manuscrito *"A Escala de Esquemas Emocionais de Leahy-II em adultos brasileiros: fator geral forte, fatores específicos fracos e validade de critério frente a depressão, ansiedade e estresse"* (n = 238).
-
-> **Dados:** os dados individuais **não são públicos** (termos do consentimento). Este repositório contém apenas código. Quem tiver autorização deve colocar `USP.CSV` e `BANCO_DE_DADOS_REFORMADO.csv` em `data/raw/`.
 > *English note:* analysis code only; individual-level data are not shared.
 
 ## Uso
