@@ -5,18 +5,6 @@ Código que reproduz as tabelas e figuras do manuscrito *"A Escala de Esquemas E
 > **Dados:** os dados individuais **não são públicos** (termos do consentimento). Este repositório contém apenas código. Quem tiver autorização deve colocar `USP.CSV` e `BANCO_DE_DADOS_REFORMADO.csv` em `data/raw/`.
 > *English note:* analysis code only; individual-level data are not shared.
 
-## O que está verificado e o que não está
-
-| Etapa | Linguagem | Status |
-|---|---|---|
-| Amostra analítica (265 → 238) por **regra**, não por lista de ids | Python | Executado e conferido |
-| Pontuação (LESS, DERS, ERQ, DASS), α, KMO/Bartlett, normas (Tab. 8) | Python | Executado e conferido com o manuscrito |
-| Spearman + IC bootstrap + Holm (Tab. 5), incremental/AUC (Tab. 6), grupos conhecidos (Tab. 7) | Python | Executado; ver `docs/VERIFICACAO.md` para as divergências |
-| DIF por gênero e sensibilidade/poder (Tab. S1) | Python | Executado e conferido |
-| Atrito (Tab. S2) e Figura S1 (fluxo) | Python | Executado e conferido |
-| Índices bifatoriais (ω, ωH, ECV, PUC, ωHS) a partir de cargas | Python | Executado: reproduz a Tabela 3 a partir da Tabela 1 |
-| Policórica, AFE, análise paralela, CFA/WLSMV, Tabelas 1 (cargas), 2 e 4 (policórica) | **R** | **Não executado** pelo autor da auditoria (R indisponível). Rodar localmente |
-
 ## Uso
 
 ```bash
